@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Home | Brooklyn Film Festival</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -18,9 +18,23 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Passion+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <a class="navbar-brand" href="./index.html">Brooklyn Film Festival</a>
+
       <button
         class="navbar-toggler"
         type="button"
@@ -33,7 +47,6 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#">Brooklyn Film Festival</a>
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item active">
             <a class="nav-link" href="./index.html">Home </a>
@@ -108,18 +121,112 @@
         </a>
       </div>
     </section>
-    <section class="newsletter">
+    <section class="py-5 my-3 text-center">
+      <div class="container">
+        <h2 class="section-title">Brooklyn Outdoor Film Festival</h2>
+        <p>
+          The Brooklyn Outdoor Film Festival (BOFF), is an International,
+          competitive festival. BFF mission is to provide a public forum in
+          Brooklyn in order to advance public interest in films and the
+          independent production of films. To draw worldwide attention to
+          Brooklyn as a center for cinema. To encourage the rights of all
+          Brooklyn residents to access and experience the power of independent
+          filmmaking, and to promote artistic excellence and the creative
+          freedom of artists without censure. BFF, inc. is a not-for-profit
+          organization.
+        </p>
+      </div>
+    </section>
+    <section class="bg-light py-5 border-top border-bottom">
+      <div class="container">
+        <h2 class="section-title">Announcements</h2>
+        <div class="row">
+          <div class="col-md-4 py-3">
+            <div class="card">
+              <img
+                src="./images/news11.jpeg"
+                class="card-img-top"
+                alt="Avengers: Endgame Is Passing Avatar At The Domestic Box Office This Weekend"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Avengers: Endgame Is Passing Avatar At The Domestic Box Office
+                  This Weekend
+                </h5>
+                <p class="card-text">
+                  Now in its fourth week of release, Avengers: Endgame continues
+                  on its journey to become the highest-grossing film of all
+                  time. The superhero film has already made its mark on cinema
+                  history by breaking a ton of box office records.
+                </p>
+                <a href="#" class="btn btn-info btn-sm">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3">
+            <div class="card">
+              <img
+                src="./images/news2.jpg"
+                class="card-img-top"
+                alt="The Fast And Furious Movies In Order: The Best Way To Watch The Fast And Furious Franchise"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  The Fast And Furious Movies In Order: The Best Way To Watch
+                  The Fast And Furious Franchise
+                </h5>
+                <p class="card-text">
+                  Warning: SPOILERS for the Fast and Furious movies are in play.
+                  Just in case you haven’t seen them, you can read the order of
+                  how the films play out chronologically, and then come back
+                  later once you’ve experienced the series...
+                </p>
+                <a href="#" class="btn btn-info btn-sm">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3">
+            <div class="card">
+              <img
+                src="./images/news3.jpg"
+                class="card-img-top"
+                alt="M. Night Shyamalan Is Working On His First Movie Post-Glass"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  M. Night Shyamalan Is Working On His First Movie Post-Glass
+                </h5>
+                <p class="card-text">
+                  After becoming an outcast from Hollywood’s good graces,
+                  Shyamalan has recently earned a successful comeback by
+                  continuing the story he started in 2000’s Unbreakable with
+                  Split & Glass. With his unexpected trilogy spanning 18 years
+                  now concluded.
+                </p>
+                <a href="#" class="btn btn-info btn-sm">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter py-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-7">
-            Donations...
-          </div>
           <div class="col-md-5">
+            <h4 class="section-title text-left">Scheduele a date:</h4>
+            <p>Be the first to know about new films get released</p>
+
+            <a href="./schedule.html" class="btn btn-outline-info">Day 1</a>
+            <a href="./schedule.html" class="btn btn-outline-info">Day 2</a>
+            <a href="./schedule.html" class="btn btn-outline-info">Day 3</a>
+            <a href="./schedule.html" class="btn btn-outline-info">Day 4</a>
+          </div>
+          <div class="col-md-7 py-1">
             <form>
+              <h4 class="section-title text-left">Join us</h4>
+              <p>Be the first to know about new films get released</p>
               <div class="form-group row">
-                <label for="inputEmail3" class="col-sm-2 col-form-label"
-                  >Email</label
-                >
                 <div class="col-sm-8">
                   <input
                     type="email"
@@ -128,9 +235,7 @@
                     placeholder="Email"
                   />
                 </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-sm-10 offset-sm-2">
+                <div class="col-sm-4">
                   <button type="submit" class="btn btn btn-outline-info">
                     Sign up
                   </button>
@@ -144,15 +249,49 @@
     <footer class="bg-dark pt-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
-            col1
+          <div class="col-md-8">
+            <h4 class="text-white-50">Sponsors</h4>
+            <div class="row">
+              <div class="col-md-6">
+                <a href="https://www.brooklynbridgepark.org/"
+                  ><img src="./images/bbp_logo.png" alt="" class="w-100 p-4"
+                /></a>
+              </div>
+              <div class="col-md-6">
+                <a href="http://brooklyn.news12.com/"
+                  ><img
+                    src="./images/news12bk-logo.png"
+                    alt=""
+                    class="w-100 p-4"
+                /></a>
+              </div>
+            </div>
           </div>
-          <div class="col-md-3">col2</div>
-          <div class="col-md-3">col3</div>
-          <div class="col-md-3">col4</div>
+          <div class="col-md-4 text-left text-light mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./schedule.html">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./rsvp.html">RSVP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="border-top py-3">
+      <div
+        class="border-top py-3"
+        style="border-color: rgba(255,255,255,.1) !important;"
+      >
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-7 text-center text-md-left">

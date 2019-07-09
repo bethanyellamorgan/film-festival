@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Schedule | Brooklyn Film Festival</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Passion+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <a class="navbar-brand" href="./index.html">Brooklyn Film Festival</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./schedule.html">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./rsvp.html">RSVP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="my-5">
+      <div class="container">
+        <h2 class="section-title">Schedule</h2>
+        <div class="accordion" id="accordionSchedule">
+          <div class="card">
+            <div class="card-header bg-dark" id="headingOne">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link text-white text-uppercase font-weight-bold"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <span
+                    class="bg-info text-white rounded-circle d-inline-block mr-2"
+                    style="width: 32px; height: 32px; line-height: 32px;"
+                    ><i class="fas fa-calendar-alt"></i
+                  ></span>
+                  August 1st
+                </button>
+              </h2>
+            </div>
+
+            <div
+              id="collapseOne"
+              class="collapse show"
+              aria-labelledby="headingOne"
+              data-parent="#accordionSchedule"
+            >
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-4">
+                    <figure class="figure movie-item mb-3">
+                      <img
+                        src="./images/dark-phoenix.jpg"
+                        class="figure-img img-fluid rounded mb-0"
+                        alt="..."
+                      />
+                      <figcaption class="figure-caption">
+                        <div class="p-4 position-relative">
+                          <small class="badge badge-warning text-uppercase"
+                            >6:00 pm</small
+                          >
+                          <h4>Dark Phoenix</h4>
+                          <p>
+                            The X-Men face their most formidable and powerful
+                            foe when one of their own, Jean Grey, starts to
+                            spiral out of control. During a rescue mission in
+                            outer space, Jean is nearly killed when she's hit by
+                            a mysterious cosmic force.
+                          </p>
+                          <a
+                            data-fancybox
+                            href="https://youtu.be/QWbMckU3AOQ"
+                            class="btn btn-outline-light"
+                          >
+                            <i class="fas fa-play"></i> Play Trailer</a
+                          >
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="figure movie-item mb-3">
+                      <img
+                        src="./images/aladin.jpg"
+                        class="figure-img img-fluid rounded mb-0"
+                        alt="..."
+                      />
+                      <figcaption class="figure-caption">
+                        <div class="p-4 position-relative">
+                          <small class="badge badge-warning text-uppercase"
+                            >8:00 pm</small
+                          >
+                          <h4>Aladdin</h4>
+                          <p>
+                            A kindhearted street urchin named Aladdin embarks on
+                            a magical adventure after finding a lamp that
+                            releases a wisecracking genie while a power-hungry
+                            Grand Vizier vies for the same lamp that has the
+                            power to make their deepest wishes come true.
+                          </p>
+                          <a
+                            data-fancybox
+                            href="https://youtu.be/foyufD52aog"
+                            class="btn btn-outline-light"
+                          >
+                            <i class="fas fa-play"></i> Play Trailer</a
+                          >
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="figure movie-item mb-3">
+                      <img
+                        src="./images/captain2.jpg"
+                        class="figure-img img-fluid rounded mb-0"
+                        alt="..."
+                      />
+                      <figcaption class="figure-caption">
+                        <div class="p-4 position-relative">
+                          <small class="badge badge-warning text-uppercase"
+                            >10:00 pm</small
+                          >
+                          <h4>Captain Marval</h4>
+                          <p>
+                            The story follows Carol Danvers as she becomes one
+                            of the universe’s most powerful heroes when Earth is
+                            caught in the middle of a galactic war between two
+                            alien races.
+                          </p>
+                          <a
+                            data-fancybox
+                            href="https://youtu.be/Z1BCujX3pw8"
+                            class="btn btn-outline-light"
+                          >
+                            <i class="fas fa-play"></i> Play Trailer</a
+                          >
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header bg-dark" id="headingTwo">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link text-white text-uppercase font-weight-bold collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <span
+                    class="bg-info text-white rounded-circle d-inline-block mr-2"
+                    style="width: 32px; height: 32px; line-height: 32px;"
+                    ><i class="fas fa-calendar-alt"></i
+                  ></span>
+                  August 2nd
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseTwo"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordionSchedule"
+            >
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-4">
+                    <figure class="figure movie-item mb-3">
+                      <img
+                        src="./images/godzilla.jpg"
+                        class="figure-img img-fluid rounded mb-0"
+                        alt="godzilla"
+                      />
+                      <figcaption class="figure-caption">
+                        <div class="p-4 position-relative">
+                          <small class="badge badge-warning text-uppercase"
+                            >6:00 pm</small
+                          >
+                          <h4>Godzilla</h4>
+                          <p>
+                            The new story follows the heroic efforts of the
+                            crypto-zoological agency Monarch as its members face
+                            off against a battery of god-sized monsters,
+                            including the mighty Godzilla.
+                          </p>
+                          <a
+                            data-fancybox
+                            href="https://youtu.be/KDnKuFtdc7A"
+                            class="btn btn-outline-light"
+                          >
+                            <i class="fas fa-play"></i> Play Trailer</a
+                          >
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="figure movie-item mb-3">
+                      <img
+                        src="./images/johnwick.jpg"
+                        class="figure-img img-fluid rounded mb-0"
+                        alt="..."
+                      />
+                      <figcaption class="figure-caption">
+                        <div class="p-4 position-relative">
+                          <small class="badge badge-warning text-uppercase"
+                            >8:00 pm</small
+                          >
+                          <h4>John Wick</h4>
+                          <p>
+                            Super-assassin John Wick returns with a $14 million
+                            price tag on his head and an army of bounty-hunting
+                            killers on his trail. The world’s most ruthless hit
+                            men and women await his every turn.
+                          </p>
+                          <a
+                            data-fancybox
+                            href="https://youtu.be/M7XM597XO94"
+                            class="btn btn-outline-light"
+                          >
+                            <i class="fas fa-play"></i> Play Trailer</a
+                          >
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="figure movie-item mb-3">
+                      <img
+                        src="./images/avengers2.jpg"
+                        class="figure-img img-fluid rounded mb-0"
+                        alt="..."
+                      />
+                      <figcaption class="figure-caption">
+                        <div class="p-4 position-relative">
+                          <small class="badge badge-warning text-uppercase"
+                            >10:00 pm</small
+                          >
+                          <h4>Avengers: Endgame</h4>
+                          <p>
+                            After the devastating events of Avengers: Infinity
+                            War, the universe is in ruins due to the efforts of
+                            the Mad Titan, Thanos. With the help of remaining
+                            allies, the Avengers must assemble once more.
+                          </p>
+                          <a
+                            data-fancybox
+                            href="https://youtu.be/hA6hldpSTF8"
+                            class="btn btn-outline-light"
+                          >
+                            <i class="fas fa-play"></i> Play Trailer</a
+                          >
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header bg-dark" id="headingThree">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link text-white text-uppercase font-weight-bold collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  <span
+                    class="bg-info text-white rounded-circle d-inline-block mr-2"
+                    style="width: 32px; height: 32px; line-height: 32px;"
+                    ><i class="fas fa-calendar-alt"></i
+                  ></span>
+                  August 3rd
+                </button>
+              </h2>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordionSchedule"
+            >
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-4">
+                    <figure class="figure movie-item mb-3">
+                      <img
+                        src="./images/us.jpg"
+                        class="figure-img img-fluid rounded mb-0"
+                        alt="..."
+                      />
+                      <figcaption class="figure-caption">
+                        <div class="p-4 position-relative">
+                          <small class="badge badge-warning text-uppercase"
+                            >6:00 pm</small
+                          >
+                          <h4>Us</h4>
+                          <p>
+                            Husband and wife Gabe and Adelaide Wilson take their
+                            kids to their beach house expecting to unplug and
+                            unwind with friends.
+                          </p>
+                          <a
+                            data-fancybox
+                            href="https://youtu.be/hNCmb-4oXJA"
+                            class="btn btn-outline-light"
+                          >
+                            <i class="fas fa-play"></i> Play Trailer</a
+                          >
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="figure movie-item mb-3">
+                      <img
+                        src="./images/outrus.jpg"
+                        class="figure-img img-fluid rounded mb-0"
+                        alt="..."
+                      />
+                      <figcaption class="figure-caption">
+                        <div class="p-4 position-relative">
+                          <small class="badge badge-warning text-uppercase"
+                            >8:00 pm</small
+                          >
+                          <h4>Catarina and the others</h4>
+                          <p>
+                            Outside, the first sun rays break the dawn. Sixteen
+                            years old Catarina can't fall asleep.
+                            Inconsequently, in the big city adults are moved by
+                            desire...
+                          </p>
+                          <a
+                            data-fancybox
+                            href="https://youtu.be/oD0Zg-4OK_M"
+                            class="btn btn-outline-light"
+                          >
+                            <i class="fas fa-play"></i> Play Trailer</a
+                          >
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="figure movie-item mb-3">
+                      <img
+                        src="./images/ma.jpg"
+                        class="figure-img img-fluid rounded mb-0"
+                        alt="..."
+                      />
+                      <figcaption class="figure-caption">
+                        <div class="p-4 position-relative">
+                          <small class="badge badge-warning text-uppercase"
+                            >10:00 pm</small
+                          >
+                          <h4>Ma</h4>
+                          <p>
+                            Sue Ann is a loner who keeps to herself in her quiet
+                            Ohio town. One day, she is asked by Maggie, a new
+                            teenager in town, to buy some booze for her and her
+                            friends
+                          </p>
+                          <a
+                            data-fancybox
+                            href="https://youtu.be/eIvbEC8N3cA"
+                            class="btn btn-outline-light"
+                          >
+                            <i class="fas fa-play"></i> Play Trailer</a
+                          >
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header bg-dark" id="headingFour">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link text-white text-uppercase font-weight-bold collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                <span
+                  class="bg-info text-white rounded-circle d-inline-block mr-2"
+                  style="width: 32px; height: 32px; line-height: 32px;"
+                  ><i class="fas fa-calendar-alt"></i
+                ></span>
+                August 4th
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseFour"
+            class="collapse"
+            aria-labelledby="headingFour"
+            data-parent="#accordionSchedule"
+          >
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <figure class="figure movie-item mb-3">
+                    <img
+                      src="./images/slop.jpg"
+                      class="figure-img img-fluid rounded mb-0"
+                      alt="..."
+                    />
+                    <figcaption class="figure-caption">
+                      <div class="p-4 position-relative">
+                        <small class="badge badge-warning text-uppercase"
+                          >6:00 pm</small
+                        >
+                        <h4>The Secret Life of Pets 2</h4>
+                        <p>
+                          What happens with our pets when we’re not home? This
+                          movie continues the original movie with Max and his
+                          friends.
+                        </p>
+                        <a
+                          data-fancybox
+                          href="https://youtu.be/pKLGUuJftl0"
+                          class="btn btn-outline-light"
+                        >
+                          <i class="fas fa-play"></i> Play Trailer</a
+                        >
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4">
+                  <figure class="figure movie-item mb-3">
+                    <img
+                      src="./images/cars.jpg"
+                      class="figure-img img-fluid rounded mb-0"
+                      alt="..."
+                    />
+                    <figcaption class="figure-caption">
+                      <div class="p-4 position-relative">
+                        <small class="badge badge-warning text-uppercase"
+                          >8:00 pm</small
+                        >
+                        <h4>Cars</h4>
+                        <p>
+                          Lightning McQueen, a hotshot rookie race car driven to
+                          succeed, discovers that life is about the journey, not
+                          the finish line, when he finds himself unexpectedly
+                          detoured
+                        </p>
+                        <a
+                          data-fancybox
+                          href="https://youtu.be/SbXIj2T-_uk"
+                          class="btn btn-outline-light"
+                        >
+                          <i class="fas fa-play"></i> Play Trailer</a
+                        >
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4">
+                  <figure class="figure movie-item mb-3">
+                    <img
+                      src="./images/dragon.jpg"
+                      class="figure-img img-fluid rounded mb-0"
+                      alt="..."
+                    />
+                    <figcaption class="figure-caption">
+                      <div class="p-4 position-relative">
+                        <small class="badge badge-warning text-uppercase"
+                          >10:00 pm</small
+                        >
+                        <h4>How to Train Your Dragon: The Hidden World</h4>
+                        <p>
+                          As Hiccup fulfills his dream of creating a peaceful
+                          dragon utopia, Toothless’ discovery of an untamed,
+                          elusive mate draws the Night Fury away.
+                        </p>
+                        <a
+                          data-fancybox
+                          href="https://youtu.be/qNGLuCijKZ0"
+                          class="btn btn-outline-light"
+                        >
+                          <i class="fas fa-play"></i> Play Trailer</a
+                        >
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h4 class="text-white-50">Sponsors</h4>
+            <div class="row">
+              <div class="col-md-6">
+                <a href="https://www.brooklynbridgepark.org/"
+                  ><img src="./images/bbp_logo.png" alt="" class="w-100 p-4"
+                /></a>
+              </div>
+              <div class="col-md-6">
+                <a href="http://brooklyn.news12.com/"
+                  ><img
+                    src="./images/news12bk-logo.png"
+                    alt=""
+                    class="w-100 p-4"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-left text-light mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./schedule.html">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./rsvp.html">RSVP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="border-top py-3">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-7 text-center text-md-left">
+              <p class="text-white-50 mb-0">
+                &copy; Copyright 2019 Brooklyn Film Fest
+              </p>
+            </div>
+            <div class="col-md-5 text-md-right text-center">
+              <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">
+                  <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                  <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fab fa-twitter fa-lg"></i
+                ></a>
+                <a href="https://pinterest.com" target="_blank"
+                  ><i class="fab fa-pinterest-square fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  </body>
+</html>
